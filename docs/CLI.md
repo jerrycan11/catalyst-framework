@@ -420,7 +420,7 @@ npx catalyst key:generate --force   # Overwrite existing key
 
 **Generated key format:**
 ```
-APP_KEY=base64:NLxvyh59/s46hjiKuQrfRdCbzYG10Fy5WgPsDE/kN14=
+APP_KEY=
 ```
 
 ---
@@ -631,7 +631,7 @@ APP_NAME=Catalyst
 APP_ENV=local
 APP_DEBUG=true
 APP_URL=http://localhost:3000
-APP_KEY=base64:your-generated-key-here
+APP_KEY=
 
 # Database
 DB_CONNECTION=sqlite

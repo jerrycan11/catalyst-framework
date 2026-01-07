@@ -43,7 +43,7 @@ const REMEMBER_ME_MAX_AGE = 60 * 60 * 24 * 30; // 30 days
  * Get the secret key for JWT operations
  */
 function getSecretKey(): Uint8Array {
-  const secret = process.env.APP_KEY || process.env.AUTH_SECRET || 'catalyst-secret-key-change-me-in-production';
+  const secret = process.env.APP_KEY || process.env.AUTH_SECRET || '';
   return new TextEncoder().encode(secret);
 }
 

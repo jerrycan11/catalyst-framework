@@ -45,7 +45,7 @@ const config: AppConfig = {
   
   fallback_locale: process.env.APP_FALLBACK_LOCALE || 'en',
   
-  key: process.env.APP_KEY || 'catalyst-secure-key-change-this-!',
+  key: process.env.APP_KEY || '',
   
   cipher: 'aes-256-gcm',
   

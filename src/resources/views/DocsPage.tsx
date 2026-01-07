@@ -145,7 +145,7 @@ After installation, configure your application:
 \`\`\`env
 APP_NAME=MyCatalystApp
 APP_ENV=development
-APP_KEY=base64:your-32-character-key-here
+APP_KEY=
 APP_DEBUG=true
 APP_URL=http://localhost:3000
 
