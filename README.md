@@ -11,7 +11,6 @@
 </div>
 
 ---
-
 ## 🚀 Overview
 
 **Catalyst** is an enterprise Next.js framework that brings Laravel's elegant developer experience to the React ecosystem. It provides a Service Container, Active Record ORM, CLI code generators, and enterprise patterns — all with TypeScript's full type safety.
